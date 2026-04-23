@@ -7,7 +7,16 @@ public final class WFly extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getCommand("fly").setExecutor(new FlyCommand());
+        saveDefaultConfig();
+
+        getCommand("fly").setExecutor(new FlyCommand(this));
+
+        getLogger().info("WFly enabled");
     }
 
+    @Override
+    public void onDisable() {
+
+        getLogger().info("WFly disabled");
+    }
 }

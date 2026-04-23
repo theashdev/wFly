@@ -4,6 +4,7 @@ version: '${version}'
 
 main: dev.ash.wFly.WFly
 api-version: '1.21'
+folia-supported: true
 
 authors: [ Ashhyyy ]
 
