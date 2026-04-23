@@ -1,0 +1,13 @@
+name: wFly
+description: $description
+version: '${version}'
+
+main: dev.ash.wFly.WFly
+api-version: '1.21'
+
+authors: [ Ashhyyy ]
+
+commands:
+  fly:
+    description: Makes you Fly :p
+    usage: /<command>
